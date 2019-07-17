@@ -22,12 +22,22 @@ body {
   header nav {
     display: flex;
     justify-content: flex-end;
+    text-decoration: none;
   }
   
   header p {
     padding: 0 20px;
     margin: 0;
     font-family: fantasy, sans-serif;
+  }
+
+  header p:hover {
+    font-size: 1.2em;
+    color: tomato;
+  }
+
+  header a {
+    color: inherit;
   }
   
   .jumbotron {
@@ -40,17 +50,28 @@ body {
     height: 500px;
     text-shadow: 0.25px 0.25px 0.25px #000000;
   }
+
+  .projects {
+    background-image: url('images/TheDoOverScreenShot2.png');
+  }
+
+  .clients {
+    background-image: url('https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/40971460_1233210086820909_2252926383606988800_n.jpg?_nc_cat=106&_nc_oc=AQnGkotKGif6I3YYrzJRPrmdrKfCmeBeBWyg9EJ1u1LG1t3slF8i1BE3lsm4_NpaW4M&_nc_ht=scontent-sea1-1.xx&oh=2708ee30ccd49b0048ca3128cce537db&oe=5DA4522A');
+    background-position: center;
+  }
   
   .jumbotron h2 {
     font-size: 60px;
     font-weight: 700;
     margin: 0;
     color: #fff;
+    background-color: rgba(148, 144, 144, 0.582);
   }
   
   .jumbotron h3 {
     margin: 0 0 20px;
     color: #fff;
+    background-color: rgba(148, 144, 144, 0.582);
   }
   
   section .row img {
